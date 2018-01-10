@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mixky.wechathelp.view.ManualFloatView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/selector_btn_close" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/jump"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_btn" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/drag1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/btn_indicator"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/drag2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/btn_indicator"
+        android:clickable="true" />
+
+
+</com.mixky.wechathelp.view.ManualFloatView>
